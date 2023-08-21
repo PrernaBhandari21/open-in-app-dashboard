@@ -12,7 +12,7 @@ import Transactions2 from "../../src/assets/icons/transactions2.svg"
 import Likes from "../../src/assets/icons/likes.svg"
 import Users2 from "../../src/assets/icons/users2.svg" 
 
-import PieChart from './pie-chart/pieChart.jsx';
+import PieChart from './pie-chart/PieChart.jsx';
 import LineGraph from './line-graph/LineGraph';
 import Today from './today/today.jsx';
 
@@ -65,10 +65,10 @@ const Dashboard = () => {
     </div>
     <div className='right-box flex-auto bg-gray-100 pl-10'>
      
-     <div className="top-bar flex justify-between items-center h-15">
+     <div style={{marginTop :'-20px'}} className="top-bar flex justify-between items-center h-15">
      <p className='text-2xl md:text-2xl lg:text-3xl xl:text-3xl my-7' style={{fontWeight:'700'}}>Dashboard</p>
 
-<div className='flex'>
+<div style={{marginTop:'-10px'}} className='flex'>
 <div>
 <div className='relative'>
   <form action="/home">
@@ -101,7 +101,7 @@ const Dashboard = () => {
      </div>
 
 
-     <div className="flex justify-between">
+     <div className="flex justify-between" style={{marginTop:'-20px'}}>
 
 <div className='flex flex-col w-1/4 m-3 p-4 ml-0' style={{background:"#ddefe0", borderRadius:'25px'}}>
   <div className='flex justify-end'>
@@ -146,7 +146,7 @@ const Dashboard = () => {
 
                 <div className="flex mt-3">
                 <div  className='bg-white p-2 rounded-lg'>
-                <p className='font-bold my-2'>Top Products</p>
+                <p className='font-bold' style={{width:'250px'}}>Top Products</p>
                     <PieChart />
                 </div>
 
