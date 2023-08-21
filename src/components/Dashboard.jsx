@@ -12,7 +12,7 @@ import Transactions2 from "../../src/assets/icons/transactions2.svg"
 import Likes from "../../src/assets/icons/likes.svg"
 import Users2 from "../../src/assets/icons/users2.svg" 
 
-import PieChart from './pie-chart/PieChart.jsx';
+import PieChart from './pie-chart/pieChart.jsx';
 import LineGraph from './line-graph/LineGraph';
 import Today from './today/today.jsx';
 
