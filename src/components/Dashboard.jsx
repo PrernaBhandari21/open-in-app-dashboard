@@ -103,7 +103,7 @@ const Dashboard = () => {
 
      <div className="flex justify-between">
 
-<div className='flex flex-col w-1/4 m-3 p-4' style={{background:"#ddefe0", borderRadius:'25px'}}>
+<div className='flex flex-col w-1/4 m-3 p-4 ml-0' style={{background:"#ddefe0", borderRadius:'25px'}}>
   <div className='flex justify-end'>
   <img alt='local-img' className="revenue-icon" src={Revenue}></img>
   </div>
@@ -128,7 +128,7 @@ const Dashboard = () => {
     <p className='font-bold' style={{ fontSize:"24px"}}>9,721</p>
 </div>
 
-<div className='w-1/4 m-3 p-4' style={{background:"#dee0ef", borderRadius:'25px'}}>
+<div className='w-1/4 m-3 p-4 mr-0' style={{background:"#dee0ef", borderRadius:'25px'}}>
 <div className='flex justify-end'>
     <img alt='local-img' src={Users2}></img>
     </div>
@@ -150,7 +150,7 @@ const Dashboard = () => {
                     <PieChart />
                 </div>
 
-                <div id="today-container">
+                <div className='bg-white p-2 rounded-lg ml-9'>
                     <Today />
                 </div>
                
